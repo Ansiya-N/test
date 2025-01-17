@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.homebanner{
+    padding: 2.625rem 3.5rem 2.625rem 3.5rem;
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+.homebannertexts{
+    display: flex;
+    flex-direction: column;
+   gap: 1.5rem;
+   
+}
+
+.text1{
+    height: 1.875rem;
+    
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+    
+}
+.text2{
+    
+        height:4.375rem;
+       
+        font-family: 'Epilogue', sans-serif;
+    font-size: 4.25rem;
+    font-weight: 600;
+    line-height: 4.356rem;
+
+}
+.text3{
+    height:4.875rem;
+    
+    
+    font-family: 'Epilogue', sans-serif;
+font-size: 1.063rem;
+font-weight: 400;
+line-height: 1.688rem;
+
+
+}
+.button{
+    height:7.875rem;
+}
+.contact{
+    background-color: #2D2D2D;
+    padding:1.5rem 4rem 1.5rem 4rem;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 1.5rem
+   
+
+}
+.dark-grey{
+    background-color: grey;
+    color: white;
+  }
+  

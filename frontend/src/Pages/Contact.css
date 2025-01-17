@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.formcontainer1{
+  
+  display: flex;
+  
+ 
+  
+}
+
+.main1{
+   
+     background-color: aliceblue;
+     width: 100vw;
+    padding: 2.188rem 2.813rem  2.188rem 2.813rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.heading1{
+    font-family: 'Epilogue', sans-serif; 
+font-size: 2.25rem;
+font-weight: 700;
+line-height: 2.723rem;
+letter-spacing: -0.01em;
+text-align: center;
+color: rgb(15, 4, 4);
+margin-bottom: 1.5rem;
+
+}
+.label11{
+    color: #9CA0AA;
+margin-bottom: 1rem;
+padding-left: 0.938rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+border: none;
+outline: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.labels1{
+    display: flex;
+    gap:1.125rem;
+}
+.label21{
+   
+    color: #9CA0AA;
+    padding-left: 0.938rem;
+    margin-bottom: 2.188rem;
+    padding-top: 1rem;
+padding-bottom: 1rem;
+border: none;
+}
+.label31{
+    
+    border: none;
+    padding-top: 0.75rem;
+    padding-left: 0.938rem;
+    height: 150px;
+ 
+   
+    margin-bottom: 1.563rem;
+}
+textarea::placeholder,.label11::placeholder,.label21::placeholder{
+    color: #9CA0AA;
+    text-align: start;
+    font-family: 'Epilogue', sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    line-height:1.21rem;
+    letter-spacing: -0.01em;
+}
+.btn1{
+    width: 7.938rem;
+    height:2.938rem;
+    font-family: 'Epilogue', sans-serif; 
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.21rem;
+    letter-spacing: -0.01em;
+    background-color: #9CA0AA;
+    color: #3849E7;
+    border: none;
+
+}
